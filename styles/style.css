@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background-color:rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#architect{
+    margin-right: 10em;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    margin-left: 3em;
+    
+   
+}
