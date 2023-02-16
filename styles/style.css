@@ -209,6 +209,8 @@ footer{
         row-gap: 1em;
     }
     .float-div{
-        order: 2;
+        position: relative;
+        left: 0;
+        bottom: 0;
     }
 }
