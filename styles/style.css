@@ -151,8 +151,15 @@ width: 100%;
     border-radius: 5px;
     padding: 25px;
     text-align: center;
-   
+ 
 }
+.all-facts:hover{
+    rotate: 20deg;
+    box-shadow: 5px 5px 5px 5px hsl(0, 8%, 93%);
+    border: none;
+    
+}
+
 
 .sponsors{
 margin-top: 100px;
