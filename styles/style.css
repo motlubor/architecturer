@@ -134,6 +134,11 @@ width: 100%;
     color: #FFFFFF;
     
 }
+.some-facts{
+    margin-top: 10em;
+    margin-bottom: 7em;
+    margin-left: 8em;
+}
 
 .facts{
       display: flex;
