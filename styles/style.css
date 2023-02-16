@@ -141,7 +141,7 @@ width: 100%;
 }
 
 .facts{
-      display: flex;
+    display: flex;
     justify-content:space-evenly;
     align-items: center;
 }
@@ -154,6 +154,7 @@ width: 100%;
  
 }
 .all-facts:hover{
+    width: 200px;
     rotate: 20deg;
     box-shadow: 5px 5px 5px 5px hsl(0, 8%, 93%);
     border: none;
@@ -193,3 +194,21 @@ footer{
     
 }
 
+
+
+/* =====================================Media Queries for mobile devices =========================== */
+
+@media only screen and (max-width: 688px){
+
+
+   .features, .features-gallery, .experience, .facts, .sponsors-icon{
+    grid-template-columns: repeat(1, 1fr);
+   }
+    .facts,.sponsors-icon{
+        flex-direction: column;
+        row-gap: 1em;
+    }
+    .float-div{
+        order: 2;
+    }
+}
