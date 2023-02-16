@@ -92,7 +92,7 @@ margin-bottom: 50px;
     width: 80%;
     margin: auto;
     display: grid;
-    gap: 3em;
+    gap: 4em;
     grid-template-columns: repeat(2, 1fr);
 
 }
@@ -101,13 +101,19 @@ margin-bottom: 50px;
 .experience-description{
 
 }
-.experience-img{
 
+.image-border{
+    border-left: 6px solid salmon;
+    margin-bottom: 0;
+}
+.experience-img img{
+width: 100%;
 }
 .experienve-field{
     border: 0;
     border-radius: 8px;
-    padding: 12px;
-    margin-top: 1.5em;
+    padding: 22px;
+    margin-top: 28px;
+    margin-bottom: 28px;
     box-shadow: 5px 5px 5px 5px hsl(0, 8%, 93%);
 }
