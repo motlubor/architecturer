@@ -85,3 +85,29 @@ margin-bottom: 50px;
 .features-gallery img{
     width: 100%;
 }
+
+/* ===========experience section ============= ========== */
+
+.experience{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.experience-description{
+
+}
+.experience-img{
+
+}
+.experienve-field{
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 1.5em;
+    box-shadow: 5px 5px 5px 5px hsl(0, 8%, 93%);
+}
