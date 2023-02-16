@@ -117,3 +117,34 @@ width: 100%;
     margin-bottom: 28px;
     box-shadow: 5px 5px 5px 5px hsl(0, 8%, 93%);
 }
+
+.float-div{
+    position: absolute;
+    left: 41em;
+    bottom: -114em;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 280px;
+    height: 150px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.facts{
+      display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.all-facts{
+    border: 1px solid rgb(238, 130, 118);
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+   
+}
