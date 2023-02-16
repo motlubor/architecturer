@@ -64,3 +64,24 @@ width: 100%;
 margin-top: 50px;
 margin-bottom: 50px;
 }
+/* =======================features section======================== */
+
+.features{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+    align-items: center;
+    margin-bottom: 5em;
+
+}
+.features-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+.features-gallery img{
+    width: 100%;
+}
